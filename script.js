@@ -92,8 +92,7 @@ checkbtn.addEventListener('click', () => {
       }
     }
   } else {
-    displayMessage();
-    ('Enter Number between 1-20');
+    displayMessage('Enter Number between 1-20');
   }
 });
 
